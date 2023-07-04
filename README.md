@@ -9,15 +9,15 @@ This work currently has a few implemented functionalities. And a few still to be
 
 - [x] Mulit-class and multi-label classification.
 - [x] Training on synthetic data and evaluating on real data. 
-- [o] Threshold detection for multi-label classification. 
+- [] Threshold detection for multi-label classification. 
 
-## Data
+## Data
 
-### Training dataset
+### Training dataset
 
 All training datasets should be located in `data/{task}/train.json`, `data/{task}/test.json`, `data/{task}/{synthetic_name}.json` (if augmented exists).
 
-### Dataloader
+### Dataloader
 
 A dataloader should be built in ```src/dataloaders```. See the files their for examples.
 
