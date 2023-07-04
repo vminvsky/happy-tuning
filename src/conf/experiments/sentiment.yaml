@@ -1,0 +1,3 @@
+for_synthetic: True
+multi_label: False
+use_augmented_data: True

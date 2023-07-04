@@ -1,0 +1,21 @@
+defaults:
+  - _self_
+
+ckpt: intfloat/e5-base
+
+batch_size: 32
+lr: 2e-5
+num_epochs: 10
+weight_decay: 0.01
+warmup_steps: 20
+validation_length: 100
+  
+for_synthetic: False
+multi_label: True                 # change label type
+use_augmented_data: False
+
+dataset: ubi_topics # can be 'sarcasm', 'sentiment', 'ubi_topics'
+approach: taxonomy # can be 'simple', 'grounded', 'taxonomy', 'grounded_norewrite'
+augmentation_model: gpt-3.5-turbo # can be gpt-3.5-turbo or gpt-4
+wandb_project: generation-evaluation # 'sarcasm_real_data' or 'generation-evaluation'
+wandb_entity: venia
