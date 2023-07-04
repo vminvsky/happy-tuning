@@ -1,6 +1,4 @@
-<div align="center">
 # Finetuning models
-</div>
 ---
 
 This repository includes code to finetune encoder-only Huggingface language models. It is mostly using PyTorch and Huggingface's Transformers library. 
@@ -9,7 +7,7 @@ This work currently has a few implemented functionalities. And a few still to be
 
 - [x] Mulit-class and multi-label classification.
 - [x] Training on synthetic data and evaluating on real data. 
-- [] Threshold detection for multi-label classification. 
+- [ ] Threshold detection for multi-label classification. 
 
 ## Data
 
