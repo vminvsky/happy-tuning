@@ -6,7 +6,7 @@ This repository includes code to finetune encoder-only Huggingface language mode
 This work currently has a few implemented functionalities. And a few still to be written.
 
 - [x] Mulit-class and multi-label classification.
-- [x] Training on synthetic data and evaluating on real data. 
+- [x] Training on synthetic data and evaluating on real data. 
 - [ ] Threshold detection for multi-label classification. 
 
 ## Data
